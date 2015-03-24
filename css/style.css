@@ -1,8 +1,18 @@
+
+/*========RS
+Body Styling
+RS========*/
+
 body {
 	height: 10px;
 	margin: 10px auto;
 	width: 720px;
 }
+
+
+/*===========RS
+Button Styling
+RS===========*/
 
 button {
 	outline: 0;
@@ -15,6 +25,10 @@ button {
 	background-color: black;
 }
 
+/*=============RS
+Container Styling
+RS=============*/
+
 #container {
 	border-radius: 5%;
 	text-align: center;
@@ -23,6 +37,10 @@ button {
 	background-color: #FFD54F;
 	width: 170px;
 }
+
+/*=========RS
+Input Styling
+RS=========*/
 
 #input {
 	color: white;
@@ -33,6 +51,10 @@ button {
 	border: 1px solid black;
 }
 
+
+/*=========RS
+Align Styling
+RS=========*/
 
 #align {
 	margin: 5px;

@@ -108,17 +108,11 @@ RS===============================================================*/
 		getDoc.value = ' - ';
 	});
 
-	// equal.addEventListener('click', function () {
-	// 	getDoc.value = test(calcExpress);
-	// });
-
 
 /*========================================================RS
 Addition / Subtraction / Multiplication / Division Functions
 RS========================================================*/
-// function test(calcExpress) {
-// 	return new Function('return ' + calcExpress)();
-// };
+
 var add = function (x,y) {
 	return (+x) + (+y);
 }
@@ -135,6 +129,9 @@ var divide = function (x,y) {
 	return x / y;
 }
 
+/*==========RS
+Equal Operator
+RS==========*/
 
 equal.addEventListener('click', function() {
 	var arrayAnswer = calcExpress.split(' ');
@@ -170,8 +167,16 @@ equal.addEventListener('click', function() {
 
 
 
+/*================================RS
+Code for Eval Method of Calculations
+RS================================*/
 
-
+// equal.addEventListener('click', function () {
+// 	getDoc.value = test(calcExpress);
+// });
+// function test(calcExpress) {
+// 	return new Function('return ' + calcExpress)();
+// };
 
 
 
