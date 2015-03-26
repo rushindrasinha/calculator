@@ -25,6 +25,18 @@ button {
 	background-color: black;
 }
 
+.num {
+	background-color: black;
+}
+
+.operator {
+	background-color: #424242;
+}
+
+#aclear {
+	background-color: #424242;
+}
+
 /*=============RS
 Container Styling
 RS=============*/
@@ -43,12 +55,13 @@ Input Styling
 RS=========*/
 
 #input {
-	color: white;
-	background-color: black;
+	color: black;
+	background-color: white;
 	height: 30px;
 	text-align: center;
 	border-radius: 50%;
 	border: 1px solid black;
+	outline: none;
 }
 
 
